@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -104,6 +105,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void createMapIntent(View view) {
-
+        Uri mapUri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
     }
 }
