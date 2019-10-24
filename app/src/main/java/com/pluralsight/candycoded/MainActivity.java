@@ -107,5 +107,6 @@ public class MainActivity extends AppCompatActivity {
     public void createMapIntent(View view) {
         Uri mapUri = Uri.parse("geo:0,0?q=618 E South St Orlando, FL 32801");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
     }
 }
