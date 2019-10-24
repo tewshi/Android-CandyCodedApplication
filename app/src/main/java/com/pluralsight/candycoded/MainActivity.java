@@ -102,4 +102,5 @@ public class MainActivity extends AppCompatActivity {
             db.insert(CandyEntry.TABLE_NAME, null, values);
         }
     }
+
 }
