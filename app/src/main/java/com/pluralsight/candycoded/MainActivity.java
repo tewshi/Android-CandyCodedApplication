@@ -81,6 +81,9 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    // ***
+    // TODO - Task 1 - Show Store Information Activity
+    // ***
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
